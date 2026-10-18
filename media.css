@@ -1,0 +1,279 @@
+/* ===== IRONCORE FITNESS - Media page styles ===== */
+
+/* box-sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: #f4f4f4;
+    color: #1a1a1a;
+}
+
+a {
+    color: #4d7c0f;
+}
+
+/* Header uses position: sticky */
+.top-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 5%;
+    background-color: rgba(0, 0, 0, 0.92);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.4);
+}
+
+.brand {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.brand span {
+    color: #a3e635;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* display: inline-block */
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: block;
+    padding: 8px 12px;
+    color: #e5e5e5;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.menu a:hover,
+.menu a.current {
+    color: #a3e635;
+    border-bottom-color: #a3e635;
+}
+
+/* Background image + position: relative/absolute */
+.banner {
+    position: relative;
+    height: 320px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.85)), url("assets/gym-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-overlay {
+    position: absolute;
+    left: 5%;
+    bottom: 40px;
+    width: 90%;
+    color: #ffffff;
+}
+
+.banner h1 {
+    margin: 0 0 8px;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+}
+
+.badge {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    padding: 6px 14px;
+    background-color: #a3e635;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+/* width, margin, padding */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.block {
+    margin-bottom: 30px;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border-left: 6px solid #a3e635;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.block h2 {
+    margin-top: 0;
+}
+
+/* float */
+.float-img {
+    float: left;
+    width: 320px;
+    margin: 0 24px 12px 0;
+}
+
+.float-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.float-img figcaption {
+    font-size: 0.8rem;
+    color: #555555;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Media grid */
+.media-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.media-box {
+    flex: 1 1 300px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    background-color: #000000;
+}
+
+audio {
+    width: 100%;
+}
+
+/* Lists */
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.list-box {
+    flex: 1 1 260px;
+    padding: 16px;
+    background-color: #111111;
+    color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.list-box h2 {
+    color: #a3e635;
+}
+
+.list-box li {
+    padding: 4px 0;
+}
+
+/* Table */
+.table-wrap {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 520px;
+}
+
+caption {
+    padding: 8px;
+    font-style: italic;
+    color: #555555;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+thead th {
+    background: linear-gradient(90deg, #000000, #262626);
+    color: #a3e635;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(163, 230, 53, 0.12);
+}
+
+tfoot td {
+    font-size: 0.8rem;
+    color: #777777;
+}
+
+/* overflow + fixed height */
+.scroll-box {
+    height: 140px;
+    overflow-y: scroll;
+    padding: 10px 16px;
+    border: 2px dashed #a3e635;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+/* display: none example - hidden on small screens */
+.bottom {
+    padding: 20px;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.bottom a {
+    color: #a3e635;
+}
+
+@media (max-width: 700px) {
+    .float-img {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .banner h1 {
+        font-size: 1.8rem;
+    }
+
+    .badge {
+        display: none;
+    }
+
+    .menu li {
+        display: block;
+    }
+
+    .top-bar {
+        position: relative;
+    }
+}

@@ -1,65 +1,50 @@
 # IRONCORE FITNESS — Web Technologies Project 1
 
 ## Project Overview
-IRONCORE FITNESS is a gym and fitness website developed as part of the Web Technologies course. The website uses a modern, dark design with lime-green accents to create a bold fitness brand identity.
-
-## Objectives
-- Create structured web pages using HTML5.
-- Apply CSS3 styling using separate stylesheets.
-- Use navigation links to connect website pages.
-- Demonstrate HTML elements, lists, tables, forms, and multimedia.
-- Practice responsive design and good web development practices.
+IRONCORE FITNESS is a gym and fitness website with a dark design and lime-green accents. It was developed for the Web Technologies course as Project 1, covering Assignment 1 and Assignment 2.
 
 ## Technologies Used
-- **HTML5** — Website structure and content.
-- **CSS3** — Layout, colours, typography, and styling.
-- **JavaScript** — Used only where implemented in the project.
+- HTML5
+- CSS3
+- JavaScript
 
-## Project Pages
+## Project Pages and Files
 
-| File | Description |
-|---|---|
-| `index.html` | Home page introducing IRONCORE FITNESS |
-| `home.css` | Styling for the home page |
-| `media.html` | Multimedia content, lists, and data table |
-| `media.css` | Styling for the media page |
-| `register.html` | Gym registration form |
-| `register.css` | Styling and form validation states |
-| `services.html` | Gym services page, if implemented |
-| `portfolio.html` | Portfolio or gallery page, if implemented |
-| `contact.html` | Contact page, if implemented |
-| `contact.js` | Contact-page JavaScript, if implemented |
+### Assignment 1
+- `index.html` — Home page
+- `home.css` — Home page styling
+- `media.html` — Multimedia, lists, and data table
+- `media.css` — Media page styling
+- `register.html` — Gym registration form
+- `register.css` — Registration page styling
+- `register.js` — Registration form interaction (if included)
 
-## Design
-- Dark charcoal background
-- Lime-green accent colour
-- Clear navigation
-- Consistent typography and spacing
-- Fitness-focused content and layout
+### Assignment 2
+- `services.html` — Services page
+- `services.css` — Services page styling
+- `portfolio.html` — Portfolio gallery
+- `portfolio.css` — Portfolio page styling
+- `contact.html` — Contact page and form
+- `contact.css` — Contact page styling
+- `contact.js` — Contact form validation and interaction
 
-## How to Run the Project
-1. Download or clone this repository.
-2. Open the project folder in Visual Studio Code.
-3. Open `index.html`.
-4. Right-click the file and select **Open with Live Server**.
-5. Navigate through the website using the navigation menu.
+## How to Run
+1. Open the project folder in Visual Studio Code.
+2. Open `index.html`.
+3. Right-click and select **Open with Live Server**.
 
-You can also open `index.html` directly in a web browser.
+## AI Usage Log
+**Tool:** ChatGPT
 
-## AI Assistance Declaration
-AI tools were used as a learning and development aid during this project. The generated suggestions and code were reviewed and adapted as needed. The student is responsible for understanding the submitted code and verifying that the final implementation meets the assignment requirements.
+**Purpose:** Assistance with project planning, understanding HTML/CSS/JavaScript concepts, Git and GitHub setup, troubleshooting, and documentation.
 
-**AI tool used:** ChatGPT and/or other tools actually used during development.
-
-**Purpose:** Assistance with HTML/CSS development, troubleshooting, project setup, and documentation.
-
-**Modifications made:** Describe the changes you personally made to the suggested code, design, structure, or functionality.
+**Changes made:** I reviewed the guidance, adapted the code to my project, tested the pages, and made changes where needed. I am responsible for understanding and explaining the code in my submission.
 
 ## Author
-**Student Name:** Usman Butt  
-**Registration Number:** L1S24BSCS0749  
+**Name:**USMAN MUJAHID
+**Registration Number:** L1F24BSCS0749  
 **Course:** Web Technologies  
-**Project:** Assignment 1
+**Project:** Project 1 — Assignment 1 and Assignment 2
 
-## Notes
-This project is developed for educational purposes. Features listed as implemented should be verified against the actual project files before submission.
+## AI Declaration
+I used ChatGPT for assistance with project planning, coding guidance, troubleshooting, and documentation. I am responsible for understanding my submitted code and being able to explain and recreate it.

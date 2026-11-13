@@ -6,6 +6,7 @@
     <meta name="description" content="Register for an IRONCORE FITNESS membership.">
     <title>IRONCORE FITNESS | Register</title>
     <link rel="stylesheet" href="register.css">
+    <script src="register.js" defer></script>
 </head>
 <body>
     <header class="nav-header">
@@ -28,7 +29,7 @@
             <p>Fill in the form below to join IRONCORE FITNESS. Fields marked with * are required.</p>
         </section>
 
-        <form class="reg-form" action="#" method="post" enctype="multipart/form-data">
+        <form class="reg-form" id="registerForm">
             <fieldset>
                 <legend>Personal Details</legend>
 
@@ -157,6 +158,7 @@
                 <button type="reset" class="secondary">Clear</button>
             </div>
         </form>
+        <p id="registerMessage" aria-live="polite"></p>
     </main>
 
     <footer class="page-footer">
